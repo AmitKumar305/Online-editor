@@ -1,0 +1,44 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#codeArea, #outputArea{
+    border: 2px solid black;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 20px;
+    width: 97%;
+    height:300px;
+}
+
+#outputArea
+{
+    height: auto;
+    background-color: #000;
+    color: #fff;
+}
+
+#dropdown{
+    width: 180px;
+    margin: 20px 25px 5px 20px ;
+    float: right;
+    display: inline;
+
+}
+
+#button{
+    margin: 10px 0 10px 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+#h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0 0 25px;
+}
